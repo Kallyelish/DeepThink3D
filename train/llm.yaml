@@ -1,0 +1,12 @@
+model_name_or_path: PATH_TO_YOUR_MODEL
+adapter_name_or_path: PATH_TO_YOUR_MODEL_CHECKPOINT
+template: llama3
+infer_backend: vllm
+vllm_enforce_eager: false
+trust_remote_code: false
+vllm_gpu_util: 0.8
+use_unsloth: true
+vllm_maxlen: 10000
+sglang_maxlen: 10000
+sglang_mem_fraction: 0.8
+flash_attn: fa2

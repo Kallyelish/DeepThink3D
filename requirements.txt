@@ -1,0 +1,13 @@
+openai
+numpy
+scikit-learn
+matplotlib
+omegaconf
+torch
+torch_redstone
+einops
+tqdm
+open_clip_torch
+trimesh
+plyfile
+shapely
